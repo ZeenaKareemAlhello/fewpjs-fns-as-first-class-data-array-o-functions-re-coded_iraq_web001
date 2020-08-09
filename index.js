@@ -33,6 +33,18 @@ function wakeDog(dogName, dogBreed){
 
 }
 
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+  console.log(routine.length);
+  
+  
+  function exerciseDog(dogName, dogBreed){
+    let arr = [];
+    console.log(routine.length);
+    for (let i = 0 ; i<routine.length ; i++){
+      arr += routine[i](dogName, dogBreed);
+    }
+    return arr;
+  }
 
 
 

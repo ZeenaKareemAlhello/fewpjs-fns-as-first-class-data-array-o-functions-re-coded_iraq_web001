@@ -28,7 +28,7 @@ function wakeDog(dogName, dogBreed){
       return m;
   }
 
-  function UnleashDog(dogName, dogBreed){
+  function unleashDog(dogName, dogBreed){
       console.log(`Unleash ${dogName} the ${dogBreed}`);
 
 }
